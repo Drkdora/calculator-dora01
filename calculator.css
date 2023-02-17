@@ -14,7 +14,8 @@
     margin: auto;
     text-align:center;
     font-family:'Times New Roman', Times, serif;
-    color: #b4b7bf;
+    color: #84878e;
+    font-weight:900;
 }
 .section1{
     /* height: 70px; */
@@ -47,3 +48,59 @@ footer{
     text-align: center;
 }
 
+@media screen and (max-width : 800px) {
+    body{
+        /* background-color: blueviolet; */
+    }
+    .heading
+    {
+        /* background-color: red; */
+        width:100%;
+        margin: auto;
+        border: 13px solid rgb(74, 73, 73);
+    }
+    button{
+        width:12%;
+        font-size: large;
+    }
+}
+@media screen and (max-width : 700px) {
+    body{
+        /* background-color: rgb(43, 226, 83); */
+    }
+    .heading
+    {
+        /* background-color: red; */
+        width:100%;
+        margin: auto;
+        border: 15px solid rgb(73, 74, 74);
+    }
+}
+@media screen and (max-width : 600px) {
+    body{
+        /* background-color: rgb(43, 189, 226); */
+    }
+    .heading
+    {
+        /* background-color: red; */
+        width:100%;
+        margin: auto;
+        border: 17px solid rgb(74, 73, 73);
+    }
+}
+@media screen and (max-width : 500px) {
+    body{
+        /* background-color: rgb(226, 125, 43); */
+    }
+    .heading
+    {
+        /* background-color: red; */
+        width:100%;
+        margin: auto;
+        border: 18.5px solid rgb(74, 73, 73);
+
+    }
+    button{
+        font-size:small;
+    }
+}
