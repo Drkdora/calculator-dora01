@@ -1,0 +1,72 @@
+<html>
+    <head>
+ 
+        <link rel="stylesheet" href="calculator.css">
+        <script src="calculator.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <div class="calculator">
+                <h2 class="heading">Calculator  </h2>
+                <p class="heading">~ dora-01</p>
+                <div class="section1">
+                    <div class="displayBox">
+                        <p id="input"> </p>
+                        <p id="output">0 </p>
+                    </div>
+                </div>
+                <div class="section2">
+                    <button onclick="basic(7)">7</button>
+                    <button onclick="basic(8)">8</button>
+                    <button onclick="basic(9)">9</button>
+                    <button onclick="basic('+')">+</button>
+                    <button onclick="basic('-')">-</button>
+                    
+                    <button onclick="basic(4)">4</button>
+                    <button onclick="basic(5)">5</button>
+                    <button onclick="basic(6)">6</button>
+                    <button onclick="basic('*')">X</button>
+                    <button onclick="basic('/')">/</button>
+                    
+                    <button onclick="basic(1)">1</button>
+                    <button onclick="basic(2)">2</button>
+                    <button onclick="basic(3)">3</button>
+                    <button onclick="basic('%')">%</button>
+                    <button onclick="calculation()">=</button>
+                    
+                    <button onclick="basic('.')">.</button>
+                    <button onclick="basic('0')">0</button>
+                    <button onclick="clearAll()">C</button>
+                    
+                </div>
+            </div>
+        </header>
+        <footer>
+            <hr>
+            <h4>&copy; Developed by dora 2022</h4>
+        </footer>
+    </body>
+</html>
+
+<!-- Basic one -->
+<!-- <html>
+    <head>
+        <script>
+            function calc(){
+                let x = document.getElementById("first").value;
+                // document.getElementsById("input").innerText = `The input is ${x}`
+                let ans = eval(x)
+                document.getElementById("answer").innerText = `${x} = ${ans}`;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <input id="first"/>
+        <button onclick="calc()">calculate</button>
+        <h2 id="input">0</h2>
+        <h2 id="answer">0</h2>
+
+    </body>
+</html> -->
