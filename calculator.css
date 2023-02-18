@@ -47,6 +47,7 @@ button{
     margin-bottom: 5px;
     font-size:x-large;
     font-weight: bold;
+    padding: 5px;
     /* background-color: #82bacf; */
 }
 footer{
@@ -62,5 +63,6 @@ footer{
     }
     button{
         font-size:large;
+        padding: 0px;
     }
 }
